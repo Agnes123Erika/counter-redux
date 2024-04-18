@@ -1,4 +1,4 @@
-// src/Materi/feature/Counter/actions.js
+
 import * as counter from './constants';
 
 export const increment = (value) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from "react-redux";
-import store from '../../App/feature/store';  // Correct path
+import store from '../../App/feature/store'; 
 import Counter from "./Pembahasan/Counter";
 
 const Redux = () => {
