@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from "react-redux";
-import { decrementWithCheckingAction, increment } from '../../../App/feature/Counter/actions';  // Correct path
+import { decrementWithCheckingAction, increment } from '../../../App/feature/Counter/actions';  
 
 const Counter = () => {
     const { count } = useSelector(state => state.counter);
